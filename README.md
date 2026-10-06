@@ -6,8 +6,12 @@
 
 ## 选择下载与启动方式
 
+[发布页与校验文件](https://github.com/leidiamren-create/qiyin-music-studio/releases/tag/v1.4.0-public.1) · [直接下载 Windows x64 基础客户端](https://github.com/leidiamren-create/qiyin-music-studio/releases/download/v1.4.0-public.1/qiyin-music-studio-v1.4.0-public.1-windows-x64-base.zip) · [下载源码 / 浏览器包](https://github.com/leidiamren-create/qiyin-music-studio/releases/download/v1.4.0-public.1/qiyin-music-studio-v1.4.0-public.1-source-browser.zip)
+
+本次为预发布版本；Windows 客户端约 166 MB，源码 / 浏览器包约 8.2 MB。
+
 - **源码 / 浏览器包**：完整解压后，用桌面 Edge / Chrome 打开 `index.html`，可使用数字作曲、音效与高级作曲。无需安装依赖或构建。浏览器本地文件策略可能限制 PDF 模块；需要 PDF 预览时可用下述本机服务。
-- **Windows x64 公开基础版 ZIP**（如已在 Releases 发布）：全部解压，双击 `七音音乐工作室.exe`。必须保留整个文件夹；该包包含 Electron 外壳，用户无需另装 Node.js。未进行 Windows 真机验收，未购买代码签名证书。不要绕过系统安全警告。
+- **Windows x64 公开基础版 ZIP**：全部解压，双击 `七音音乐工作室.exe`。必须保留整个文件夹；该包包含 Electron 外壳，用户无需另装 Node.js。未进行 Windows 真机验收，未购买代码签名证书。不要绕过系统安全警告。
 - **增量更新包不是完整客户端**：历史 v1.4 完整离线组件更新以已安装的 v1.3 Windows 基础客户端为前提，不能单独运行。它不是本次公开基础包，当前不在公开仓库提供；不能用源码 ZIP 代替它。
 
 本机浏览器服务（仅需已安装的 Node.js；不需要 npm install）：
