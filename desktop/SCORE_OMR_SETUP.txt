@@ -1,0 +1,9 @@
+可选五线谱识别配置（公开基础版）
+
+本包只含调用独立本机程序的适配器，不附带 Audiveris、Java、Tesseract OCR 数据。
+从 https://github.com/Audiveris/audiveris/releases 选择官方安装包，自行阅读许可并安装。
+在 Windows 七音客户端中选择“配置五线谱识别”，经确认后选 Audiveris.exe。
+
+只支持适用的印刷五线谱输入；识别会出错，需要逐音校对。PDF 先在本机选择页面渲染为图片。
+源码里的 offline-omr-tests.cjs 使用人工测试程序检查校验、取消和过程控制，不是识别准确率测试。
+本公开包没有完成 Windows EXE 调用、系统对话框、实际 OMR 模型与声卡验收。

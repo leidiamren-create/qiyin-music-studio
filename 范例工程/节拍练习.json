@@ -1,0 +1,31 @@
+{
+  "format": "numbered-music-studio",
+  "version": 1,
+  "title": "节拍练习",
+  "bpm": 100,
+  "key": 0,
+  "volume": 0.7,
+  "loop": false,
+  "tracks": [
+    {
+      "name": "鼓组",
+      "instrument": "percussion",
+      "volume": 0.6,
+      "mute": false,
+      "notation": "[12] 2 3 2 | [12] 2 3 2 | [12] 2 3 2 | [12] 2 [36]:2"
+    }
+  ],
+  "sfx": {
+    "preset": "coin",
+    "seed": 42,
+    "frequency": 660,
+    "endFrequency": 1320,
+    "duration": 0.35,
+    "attack": 0.005,
+    "decay": 0.25,
+    "noise": 0,
+    "filter": 10000,
+    "wave": "square",
+    "volume": 0.6
+  }
+}

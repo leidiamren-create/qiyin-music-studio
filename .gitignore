@@ -1,0 +1,41 @@
+# Dependencies, generated packages and optional local engines
+node_modules/
+.runtime/
+models/
+pretrained_models/
+.venv/
+venv/
+dist/
+build/
+__pycache__/
+*.py[cod]
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.exe
+*.dll
+*.msi
+*.onnx
+*.h5
+*.ckpt*
+*.log
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.DS_Store
+Thumbs.db
+# Local user data and private scratch work
+user-data/
+user-projects/
+uploads/
+recordings/
+qa-output/
+# Exact corresponding source distributed with the legacy PDF font binaries
+!source-materials/liberation-fonts-1.07.4.tar.gz

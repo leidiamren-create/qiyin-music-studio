@@ -1,0 +1,611 @@
+# Exact visible English text<TAB>Simplified Chinese. Never applied to serialized model keys.
+File	文件
+Edit	编辑
+Preferences	偏好设置
+Play	播放
+Pause	暂停
+Record	录制音符
+Stop Recording	停止录制
+New Blank Song	新建空白歌曲
+Import Song...	导入歌曲…
+Export Song...	导出歌曲…
+Copy Song URL	复制歌曲链接
+View in Song Player	在播放器中查看
+Copy HTML Embed Code	复制 HTML 嵌入代码
+Recover Recent Song...	恢复近期歌曲…
+Undo	撤销
+Redo	重做
+Copy Pattern	复制片段
+Paste Pattern Notes	粘贴片段音符
+Paste Pattern Numbers	粘贴片段编号
+Insert Bar	插入小节
+Delete Selected Bars	删除所选小节
+Insert Channel	插入音轨
+Delete Selected Channels	删除所选音轨
+Select All	全选
+Select Channel	选择音轨
+Duplicate Reused Patterns	独立复制复用片段
+Move Notes Up	音符升高
+Move Notes Down	音符降低
+Move All Notes Sideways...	整体平移音符…
+Change Beats Per Bar...	更改每小节拍数…
+Change Song Length...	更改歌曲长度…
+Channel Settings...	音轨设置…
+Channel Settings	音轨设置
+Auto Play on Load	载入后自动播放
+Automatically View Current Bar	自动跟随当前小节
+Hear Preview of Added Notes	试听新增音符
+Show Piano Keys	显示琴键音名
+Highlight "Fifth" of Song Key	突出显示调内五度音
+Allow Adding Notes Not in Scale	允许添加音阶外音符
+Use Current Scale as Default	使用当前音阶作为默认
+Show Notes From All Channels	显示所有音轨的音符
+Show Octave Scrollbar	显示八度滚动条
+Customize All Instruments	展开所有乐器参数
+Instrument Copy/Paste Buttons	显示音色复制/粘贴按钮
+Enable Channel Muting	启用音轨静音
+Display Song Data in URL	在链接中保存歌曲数据
+Choose Layout...	选择布局…
+Light Theme	浅色主题
+Dark Theme	深色主题
+Set Up Note Recording...	设置音符录制…
+Song Settings	歌曲设置
+Instrument Settings	乐器设置
+Scale	音阶
+Key	调性
+Tempo	速度
+Rhythm	节奏
+Instrument	乐器
+Copy	复制
+Paste	粘贴
+Volume	音量
+Type	类型
+Copy Instrument	复制音色
+Paste Instrument	粘贴音色
+Random Preset	随机预设
+Random Generated	随机生成
+Customize Instrument	编辑音色
+EQ Filter	均衡滤波
+Fade In/Out	淡入/淡出
+Wave	波形
+Noise	噪声
+Algorithm	算法
+Freq	频率
+Feedback	反馈
+Fdback Vol	反馈量
+Spectrum	频谱
+Harmonics	谐波
+Envelope	包络
+Dynamism	叠加量
+Spread	频率扩散
+Saw↔Pulse	锯齿↔脉冲
+Pulse Width	脉宽
+Sustain	延音
+Unison	齐奏
+Effects	效果
+Transition	衔接
+Chords	和弦
+Pitch Shift	移调
+Detune	微调
+Vibrato	颤音
+Note Filter	音符滤波
+Distortion	失真
+Bit Crush	位深压缩
+Freq Crush	采样降频
+Panning	声像
+Chorus	合唱
+Echo	回声
+Echo Delay	回声延迟
+Reverb	混响
+Envelopes	包络
+Snap Notes To Scale	音符吸附到音阶
+Detect Key	检测调性
+Snap Notes To Rhythm	音符吸附到节奏
+Okay	确定
+Cancel	取消
+Close	关闭
+Save	保存
+Export	导出
+Save File	保存文件
+Export Options	导出选项
+File name	文件名
+Intro	前奏
+Loop Count	循环次数
+Outro	尾奏
+File Type	文件类型
+.json (for any BeepBox version)	.json（BeepBox 工程）
+.html (opens BeepBox)	.html（打开 BeepBox）
+Small	紧凑
+Long	横向
+Tall	纵向
+Layout	布局
+Splice beats at end of bars.	在小节末尾增删节拍。
+Stretch notes to fit in bars.	拉伸音符以适应小节。
+Overflow notes across bars.	让超出音符延续到下一小节。
+Beats Per Bar	每小节拍数
+Beats per bar	每小节拍数
+(Multiples of 3 or 4 are recommended)	（建议使用 3 或 4 的倍数）
+Wrap notes around within bars.	音符在小节内循环移动。
+Move Notes Sideways	平移音符
+Beats to move	移动拍数
+(Negative is left, positive is right)	（负数向左，正数向右）
+Apply change at end of song.	在歌曲末尾增删。
+Apply change at beginning of song.	在歌曲开头增删。
+Song Length	歌曲长度
+Bars per song	歌曲小节数
+(Multiples of 4 are recommended)	（建议使用 4 的倍数）
+Pitch channels	旋律音轨数
+Drum channels	鼓组音轨数
+Available patterns per channel	每轨可用片段数
+Simultaneous instruments	同时演奏的乐器
+per channel	每条音轨
+Different instruments	不同乐器
+per pattern	每个片段
+Mute (M), Mute All (⇧M), Solo (S), Exclude (⇧S)	静音 (M)、全部静音 (⇧M)、独奏 (S)、排除 (⇧S)
+easy :)	五声大调
+easy :(	五声小调
+island :)	琉球音阶
+island :(	巴厘音阶
+blues :)	布鲁斯大调
+blues :(	布鲁斯小调
+normal :)	自然大调
+normal :(	自然小调
+double harmonic :)	双和声大调
+double harmonic :(	双和声小调
+strange	全音音阶
+expert	半音音阶
+pentatonic major	五声大调
+pentatonic minor	五声小调
+ryukyu	琉球音阶
+pelog selisir	巴厘佩洛格音阶
+blues major	布鲁斯大调
+blues	布鲁斯
+ionian	伊奥尼亚（自然大调）
+aeolian	爱奥利亚（自然小调）
+double harmonic major	双和声大调
+double harmonic minor	双和声小调
+whole tone	全音音阶
+chromatic	半音音阶
+÷3 (triplets)	÷3（三连音）
+÷4 (standard)	÷4（标准）
+freehand	自由节奏
+chip	芯片波形
+chip wave	芯片波形
+FM (expert)	FM（进阶）
+basic noise	基础噪声
+noise	噪声
+spectrum	频谱
+harmonics	谐波
+drumset	鼓组
+pulse width	脉宽合成
+picked string	拨弦
+Picked String	拨弦
+supersaw	超级锯齿波
+rounded	圆润波
+triangle	三角波
+square	方波
+1/4 pulse	1/4 脉冲
+1/8 pulse	1/8 脉冲
+sawtooth	锯齿波
+double saw	双锯齿
+double pulse	双脉冲
+spiky	尖峰波
+retro	复古
+white	白噪声
+clang	金属撞击
+buzz	蜂鸣
+hollow	空洞
+low-pass	低通
+high-pass	高通
+peak	峰值
+normal	普通
+interrupt	打断
+continue	连续
+slide	滑音
+slide in pattern	片段内滑音
+none	无
+light	轻微
+delayed	延迟
+heavy	强烈
+shaky	晃动
+shimmer	闪烁
+hum	嗡鸣
+honky tonk	酒馆钢琴
+dissonant	不协和
+fifth	五度
+octave	八度
+bowed	弓弦
+piano	钢琴
+reverb	混响
+chorus	合唱
+panning	声像
+distortion	失真
+bitcrusher	位深/降频
+note filter	音符滤波
+echo	回声
+pitch shift	移调
+detune	微调
+vibrato	颤音
+transition type	衔接方式
+chord type	和弦方式
+simultaneous	同时发声
+strum	扫弦
+arpeggio	琶音
+custom interval	自定义音程
+note size	音符力度
+punch	冲击
+bright	明亮
+acoustic	原声
+note volume	音符音量
+sustain	延音
+unison	齐奏
+fm# freq	FM# 频率
+fm# volume	FM# 音量
+fm feedback	FM 反馈
+vibrato range	颤音幅度
+n. filter freqs	音符滤波频率组
+n. filter # freq	音符滤波 # 频率
+n. filter # vol	音符滤波 # 增益
+dynamism	叠加量
+spread	频率扩散
+saw↔pulse	锯齿↔脉冲
+Custom Instruments	自定义乐器
+Retro Presets	复古音色
+Keyboard Presets	键盘音色
+Idiophone Presets	打击乐音色
+Guitar Presets	吉他音色
+Picked Bass Presets	拨弦贝司音色
+Picked String Presets	拨弦乐器音色
+Distortion Presets	失真音色
+Bellows Presets	风箱/风琴音色
+String Presets	弦乐音色
+Vocal Presets	人声音色
+Brass Presets	铜管音色
+Reed Presets	簧管音色
+Flute Presets	笛类音色
+Pad Presets	氛围铺底音色
+Drum Presets	鼓与打击音色
+Novelty Presets	特色音效
+square wave	方波
+triangle wave	三角波
+square lead	方波主音
+sawtooth lead 1	锯齿主音 1
+sawtooth lead 2	锯齿主音 2
+chip noise	芯片噪声
+FM twang	FM 弹拨
+FM bass	FM 贝司
+FM flute	FM 长笛
+FM organ	FM 风琴
+supersaw lead	超级锯齿主音
+grand piano	三角钢琴
+bright piano	明亮钢琴
+electric grand	电声三角钢琴
+honky-tonk piano	酒馆钢琴
+electric piano 1	电钢琴 1
+electric piano 2	电钢琴 2
+harpsichord	羽管键琴
+clavinet	击弦电钢琴
+dulcimer	扬琴
+celesta	钢片琴
+glockenspiel	钟琴
+music box 1	八音盒 1
+music box 2	八音盒 2
+vibraphone	颤音琴
+marimba	马林巴
+kalimba	卡林巴
+xylophone	木琴
+tubular bell	管钟
+bell synth	合成钟声
+rain drop	雨滴
+crystal	水晶
+tinkle bell	铃铛
+agogo	阿戈戈铃
+nylon guitar	尼龙弦吉他
+steel guitar	钢弦吉他
+jazz guitar	爵士吉他
+clean guitar	清音吉他
+muted guitar	闷音吉他
+acoustic bass	原声贝司
+fingered bass	指弹贝司
+picked bass	拨片贝司
+fretless bass	无品贝司
+slap bass 1	拍弦贝司 1
+slap bass 2	拍弦贝司 2
+bass synth 1	合成贝司 1
+bass synth 2	合成贝司 2
+bass & lead	贝司与主音
+dubstep yoi yoi	回响贝司哟哟
+pizzicato strings	拨奏弦乐
+harp	竖琴
+sitar	西塔琴
+banjo	班卓琴
+ukulele	尤克里里
+shamisen	三味线
+koto	日本筝
+overdrive guitar	过载吉他
+distortion guitar	失真吉他
+charango synth	合成恰朗戈琴
+guitar harmonics	吉他泛音
+PWM overdrive	PWM 过载
+PWM distortion	PWM 失真
+FM overdrive	FM 过载
+FM distortion	FM 失真
+drawbar organ 1	拉杆风琴 1
+drawbar organ 2	拉杆风琴 2
+percussive organ	打击风琴
+rock organ	摇滚风琴
+pipe organ	管风琴
+reed organ	簧风琴
+accordion	手风琴
+bandoneon	班多钮手风琴
+bagpipe	风笛
+violin	小提琴
+viola	中提琴
+cello	大提琴
+contrabass	低音提琴
+fiddle	民俗提琴
+tremolo strings	震音弦乐
+strings	弦乐
+slow strings	慢起弦乐
+strings synth 1	合成弦乐 1
+strings synth 2	合成弦乐 2
+orchestra hit 1	管弦齐奏 1
+orchestra hit 2	管弦齐奏 2
+supersaw string	超级锯齿弦乐
+choir soprano	女高音合唱
+choir tenor	男高音合唱
+choir bass	男低音合唱
+solo soprano	女高音独唱
+solo tenor	男高音独唱
+solo bass	男低音独唱
+voice ooh	哦声人声
+voice synth	合成人声
+vox synth lead	合成人声主音
+tiny robot	小机器人
+yowie	约维怪声
+mouse	小鼠
+gumdrop	软糖
+echo drop	回声水滴
+dark choir	暗色合唱
+trumpet	小号
+trombone	长号
+tuba	大号
+muted trumpet	弱音小号
+french horn	圆号
+brass section	铜管组
+brass synth 1	合成铜管 1
+brass synth 2	合成铜管 2
+pulse brass	脉冲铜管
+soprano sax	高音萨克斯
+alto sax	中音萨克斯
+tenor sax	次中音萨克斯
+baritone sax	上低音萨克斯
+sax synth	合成萨克斯
+shehnai	印度唢呐
+oboe	双簧管
+english horn	英国管
+bassoon	巴松
+clarinet	单簧管
+harmonica	口琴
+flute	长笛
+recorder	竖笛
+whistle	口哨
+ocarina	陶笛
+piccolo	短笛
+shakuhachi	尺八
+pan flute	排箫
+blown bottle	吹瓶
+calliope	汽笛风琴
+chiffer	气头笛音
+breath noise	气息噪声
+new age pad	新世纪铺底
+warm pad	温暖铺底
+polysynth pad	复音合成铺底
+space voice pad	太空人声铺底
+bowed glass pad	弓奏玻璃铺底
+metallic pad	金属铺底
+sweep pad	扫频铺底
+atmosphere	氛围
+brightness	明亮氛围
+goblins	精灵怪声
+sci-fi	科幻
+flutter pad	颤动铺底
+feedback pad	反馈铺底
+supersaw pad	超级锯齿铺底
+standard drumset	标准鼓组
+steel pan	钢鼓
+steel pan synth	合成钢鼓
+timpani	定音鼓
+dark strike	暗色敲击
+woodblock	木鱼
+taiko drum	太鼓
+melodic drum	旋律鼓
+drum synth	合成鼓
+tom-tom	通鼓
+metal pipe	金属管
+synth kick	合成底鼓
+guitar fret noise	吉他品丝噪声
+fifth saw lead	五度锯齿主音
+fifth swell	五度渐强
+soundtrack	配乐氛围
+reverse cymbal	反向镲片
+seashore	海浪
+bird tweet	鸟鸣
+telephone ring	电话铃
+helicopter	直升机
+applause	掌声
+gunshot	枪声
+scoot	滑动声
+buzz saw	电锯
+mosquito	蚊鸣
+breathing	呼吸
+klaxon synth	合成喇叭
+theremin	特雷门琴
+sonar ping	声呐
+Song Key	歌曲调性
+Song Tempo	歌曲速度
+Instrument Number	乐器编号
+Instrument Volume	乐器音量
+Instrument Panning	乐器声像
+Instrument Type	乐器类型
+Chip Wave	芯片波形
+Supersaw Dynamism	超级锯齿叠加量
+Supersaw Spread	超级锯齿频率扩散
+Supersaw Shape	超级锯齿形状
+Pulse Wave Width	脉冲波宽度
+FM Algorithm	FM 算法
+Feedback Type	反馈类型
+Feedback Distortion	反馈失真
+Operator Frequency	算子频率
+Operator Volume	算子音量
+Drumset Envelope	鼓组包络
+Drumset Spectrum	鼓组频谱
+Echo Volume	回声音量
+Bitcrusher Quantization	位深量化
+Frequency Quantization	频率量化
+String Sustain	弦音延续
+(A) Acoustic	(A) 原声
+(B) Bright	(B) 明亮
+root	根音
+second	二度
+third	三度
+fourth	四度
+tritone	三全音
+sixth	六度
+seventh	七度
+Import	导入
+BeepBox songs can be exported and re-imported as .json files. You could also use other means to make .json files for BeepBox as long as they follow the same structure.	BeepBox 歌曲可导出为 JSON 文件，也能再次导入。其他工具生成的 JSON 必须符合 BeepBox 的工程结构。
+BeepBox can also (crudely) import .mid files. There are many tools available for creating .mid files. Shorter and simpler songs are more likely to work well.	也可以近似导入 MIDI 文件（.mid）。越短、越简单的歌曲通常效果越好；导入后请检查音色、节奏和音符。
+Song Recovery	歌曲恢复
+This is a TEMPORARY list of songs you have recently modified. Please keep your own backups of songs you care about!	这里临时保存最近修改的歌曲。重要作品请另外下载备份！
+There are no recovered songs available yet. Try making a song!	暂时没有可恢复的歌曲。编辑歌曲后再来查看。
+(If "Display Song Data in URL" is enabled in your preferences, then you may also be able to find song versions in your browser history. However, song recovery won't work if you were browsing in private/incognito mode.)	若在偏好设置中启用了“在链接中保存歌曲数据”，也可尝试从浏览器历史中找回版本。隐私/无痕模式可能无法恢复歌曲。
+This setting controls how quickly the picked string vibration decays.	控制拨弦振动衰减的速度。
+Unlike most of BeepBox's instrument synthesizer features, a picked string cannot change frequency suddenly while maintaining its decay. If a tone's pitch changes suddenly (e.g. if the chord type is set to "arpeggio" or the transition type is set to "continues") then the string will be re-picked and start decaying from the beginning again, even if the envelopes don't otherwise restart.	拨弦无法在维持自然衰减的同时突然改变频率。若音高突变，例如使用琶音和弦或连续衔接，弦会重新拨响并从头衰减，即使其他包络没有重新开始。
+BeepBox comes with two slightly different sustain designs. You can select one here and press "Okay" to confirm it.	提供两种略有不同的延音模型。选择后点击“确定”。
+This setting limits the available pitches for adding notes. You may think that there's no point in limiting your choices, but the set of pitches you use has a strong influence on the mood and feel of your song, and these scales serve as guides to help you choose appropriate pitches. Don't worry, you can change the scale at any time, so you're not locked into it. Try making little melodies using all the available pitches of a scale to get a sense for how it sounds.	音阶限定可添加的音高，帮助你控制歌曲的情绪与风格。你可以随时更改音阶。尝试用同一音阶的各个音写一小段旋律，体会它们的感觉。
+Most of the scales have a major version, marked with a smiley face, and a minor version, marked with a sad face. Assuming your song uses all pitches in the scale and especially "tonic" pitches (the brown rows in the pattern editor) then major scales tend to sound more playful or optimistic, whereas minor scales sound more serious or sad.	大部分音阶有大调与小调版本，原版分别用笑脸和悲伤表情标记。若旋律突出主音（编辑区棕色行），大调通常更活泼、乐观，小调通常更严肃、忧伤。
+This setting can shift the frequency of every note in your entire song up or down, keeping the "tonic" pitches (the brown rows in the pattern editor) aligned with the selected "key" pitch.	整体升降歌曲音高，使主音（编辑区棕色行）与所选调性对应。
+If you've already placed some notes but they don't emphasize "tonic" pitches then the selected key isn't very meaningful. You can select the "Detect Key" option in the key menu to automatically align the most emphasized notes with "tonic" pitches.	若旋律没有突出主音，所选调性可能不明显。可使用调性菜单的“检测调性”，让最突出的音与主音对齐。
+This setting controls the speed of your song, measured in beats-per-minute. A "beat" is the duration of the little gray rectangles in the pattern editor. (In conventional music notation, a "quarter note" is usually equivalent to "beat".)	控制歌曲速度，单位为每分钟拍数（BPM）。编辑区的小灰色矩形表示一拍，通常对应乐谱中的四分音符。
+Reverb is like a continuous echo effect. A little bit helps instruments sound more natural. Adding a lot of reverb can add sense of depth or mystery, but too much reverb can kinda "smear" sounds so that it's harder to distinguish notes or instruments, especially for lower "bass" notes.	混响类似连续回声。少量混响使乐器更自然，较多混响可增加空间感和神秘感；过多会使音符与乐器变得模糊，尤其是低音。
+This setting determines how beats are divided. The pattern editor helps you align notes to fractions of a beat based on this setting.	决定一拍如何细分，片段编辑区会按此帮助音符对齐到拍内位置。
+If you've already placed some notes but they don't align with the selected rhythm, you can select the "Snap Notes To Rhythm" option in the rhythm menu to force the notes in the currently selected pattern(s) to align with the selected rhythm.	若已有音符未对齐，可在节奏菜单选择“音符吸附到节奏”，调整当前选中片段的音符。
+In the "Channel Settings" option from BeepBox's "Edit" menu, there are a few ways to enable multiple instruments per channel.	在“编辑 → 音轨设置”中，可以用几种方式启用每轨多乐器。
+First, you could enable multiple simultaneous instruments per channel. All of the channel's instruments will play all of the notes in the channel at the same time, and you can click an instrument number to view and edit its settings.	启用每轨同时演奏多乐器后，该轨所有乐器同时演奏全部音符。点击乐器编号可查看与编辑其参数。
+Second, you could enable different instruments per pattern. Only one of the instruments will play at any given time, but you can click the instrument number to change which instrument is used for the currently selected pattern(s).	启用每片段不同乐器后，一次只演奏一种乐器；点击编号可为当前选中片段切换乐器。
+Finally, you can enable them both, in which case you can click an instrument number once to view it, and again to toggle whether the instrument is used for the currently selected pattern(s).	也可以同时启用两项。单击编号查看乐器，再次点击则切换该乐器是否参与当前选中片段的演奏。
+Either way, you can click the + button to add more instruments to a channel, and you can press shift and a number key on your keyboard to select an instrument as if you had clicked the corresponding button here.	点击 + 可添加乐器。Shift 加数字键等同于点击相应的乐器编号。
+This setting controls the volume of the selected instrument without affecting the volume of the other instruments. This allows you to balance the loudness of each instrument relative to each other.	仅改变所选乐器音量，不影响其他乐器，用于平衡各乐器的相对响度。
+If you're listening through headphones or some other stereo sound system, this controls the position of the instrument and where the sound is coming from, ranging from left to right.	使用耳机或立体声设备时，此参数控制声音从左至右的位置。
+As a suggestion, composers often put lead melodies, drums, and basses in the center, and spread other instruments toward either side. If too many instruments seem like they're coming from the same place, it can feel crowded and harder to distinguish individual sounds, especially if they cover a similar pitch range.	主旋律、鼓和贝司通常居中，其他乐器可分布在左右。音域相近的乐器若集中在同一位置，会显得拥挤且难以分辨。
+BeepBox comes with many instrument presets, try them out! You can also create your own custom instruments!	可以尝试内置乐器预设，也可以自己设计音色。
+There are also options for copying and pasting instrument settings and for generating random instruments at the top of the instrument type menu.	乐器类型菜单顶部还可复制、粘贴音色参数，或随机生成音色。
+Filters are a way of emphasizing or diminishing different parts of a sound. Musical notes have a fundamental (base) frequency, but the sound of a musical note also has parts at higher frequencies and filters can adjust the volume of each of these parts based on their frequency.	滤波可增强或削弱声音的不同频率部分。音符除了基频还含有更高频率的成分，可分别调整它们的音量。
+Click in the filter editor to insert, delete, or drag a filter control point. The horizontal position of the point determines which frequencies it affects, and the vertical position determines how the volume is affected at that frequency.	点击滤波编辑区可插入、删除或拖动控制点。横向位置控制频率，纵向位置控制该频率的增益。
+Insert a new point on the left side of the filter editor to add a "high-pass" filter point, which additionally reduces the volume of lower frequencies, or insert a new point on the right side to add a "low-pass" filter point which reduces the volume of higher frequencies.	在左侧添加控制点会创建高通滤波并削弱低频；在右侧添加控制点会创建低通滤波并削弱高频。
+You can also enable a "Note Filter" as an effect. EQ and note filters are mostly the same, but have different purposes. EQ filters are for overall adjustments, whereas note filters are for dynamic control and can be moved with envelopes. Note filters also change how the distortion effect sounds.	还可启用“音符滤波”效果。均衡滤波用于整体调整；音符滤波用于随时间变化的控制，可通过包络移动，也会影响失真效果。
+Note filters are mostly the same as EQ filters, but have a different purpose. EQ filters are for overall adjustments, whereas note filters are for dynamic control and can be moved with envelopes. Note filters also change how the distortion effect sounds.	音符滤波与均衡滤波类似，但用途不同：均衡滤波用于整体调整；音符滤波可由包络动态控制，也会影响失真效果。
+This setting controls how long it takes for notes to reach full volume at the beginning or decay to silence at the end.	控制音符开始时达到完整音量，以及结束时衰减至无声所需的时间。
+An instant fade-in sounds like instruments that are played by hitting or plucking, whereas slower fade-ins sound like instruments that are played by blowing air.	瞬时淡入类似敲击或拨弦乐器，缓慢淡入更像吹奏乐器。
+You can also make the fade-out start before the note ends to leave a gap before the next note starts, or after the note ends to allow the sound of the end of the note to overlap with the start of the next note.	淡出可在音符结束前开始，留出间隙；也可在结束后延续，使相邻音符略有重叠。
+Usually, when one note ends at the same time another begins, the old note will fade out and the new note will fade in based on the fade in/out settings, but this setting can override that, connecting the end of one note to the beginning of the next.	通常相邻音符按淡入/淡出设置衔接。此设置可改为直接连接前一个音符末尾与下一个音符开头。
+The "interrupt" transition makes the wave suddenly change from the old note's frequency to the new note's frequency without any fading, but still restarts envelopes at the beginning of the new note. The "continue" transition is similar but it doesn't even restart envelopes, and can be used to make each of the notes in a chord start or stop at different times!	“打断”使频率立即切换且不淡化，但会重新开始包络。“连续”连包络也不重启，可以让和弦内不同音符分别开始或结束。
+The "slide" transition makes the pitch shift quickly but not instantaneously from the old note's frequency to the new note's frequency, and softly restarts envelopes. The "slide in pattern" transition is the same except it doesn't connect the last note in a pattern to the first note in the next pattern.	“滑音”使音高快速但不瞬时地过渡，并柔和重启包络。“片段内滑音”类似，但不会连接两个相邻片段的首尾音符。
+BeepBox comes with some sound waves based on classic electronic sound chips, as well as several unique waves. This is the basic source of the sound of the instrument, which is modified by the other instrument settings.	这些经典电子芯片波形及特色波形是乐器的基础声源，其他参数会进一步塑造声音。
+BeepBox comes with several basic noise sounds. These do not have any distinct musical pitch, and can be used like drums to create beats and emphasize your song's rhythm.	基础噪声没有清晰固定的音高，可用作鼓声，制作节拍并强调节奏。
+A supersaw is a combination of many sawtooth waves, and this setting controls the contribution of extra sawtooth waves.	超级锯齿波由多条锯齿波叠加，此参数控制额外波形的比例。
+At the low end of the slider, only the first wave is contributing to the sound, which sounds like an ordinary static sawtooth wave. At the maximum setting, all of the waves are contributing equally and the resulting tone can randomly shift depending on how the waves line up with each other, similar to the "unison" and "chorus" settings.	最低值只保留第一条波形，类似普通静态锯齿波。最大值让各波形等量参与，随相位关系产生变化，类似齐奏或合唱。
+A supersaw is a combination of many sawtooth waves, and this setting controls the distance between their frequencies. The dynamism setting must be used for the extra waves to have any effect.	控制叠加锯齿波之间的频率差。需要先提高叠加量，额外波形才会起作用。
+At the low end of the spread slider, all of the voices have the same frequency but random phase, resulting in a different sound every time a note starts. In the middle, the waves all have slightly different frequencies that shift in and out of phase over time similar to the "unison" and "chorus" settings, creating a classic supersaw sound. At the extreme end, the frequencies are so far apart they sound dissonant.	最低值频率相同但初始相位随机，因此每次起音略有不同。中间值频率略有差异，相位随时间移动，形成经典超级锯齿音色。极大值可能不协和。
+This supersaw instrument includes an option to change the shape of the waves from sawtooth waves to pulse waves. Use this setting to morph between the two shapes.	将超级锯齿波的形状在锯齿波与脉冲波之间连续变化。
+When a pulse wave shape is used, you can also control the pulse width with a separate setting.	使用脉冲形状时，还可单独调整脉宽。
+This setting controls the shape and sound of a pulse wave. At the minimum width, it sounds light and buzzy. At the maximum width, it is shaped like a classic square wave.	控制脉冲波的形状与音色。最窄时轻薄且带蜂鸣感；最宽时接近经典方波。
+This instrument can play two identical waves at different frequencies. When two waves play at slightly different frequencies, they move in and out of phase with each other over time as different parts of the waves line up. This creates a dynamic, shifting sound. Pianos are a common example of this kind of sound, because each piano key strikes multiple strings that are tuned to slightly different frequencies.	叠加两条形状相同、频率略有差异的波形。随时间相位变化，声音产生流动感。钢琴每个琴键敲击多根略有调音差异的琴弦，也有这种效果。
+The distance between two frequencies is called an "interval", and this setting controls how large it is. If the interval is too wide, then the waves may sound out-of-tune and "dissonant". However, if the interval is even larger, then the two frequencies can even be distinct pitches.	两个频率之间的距离称为音程。差距过大会失谐、不协和；进一步增大则可听成两个独立音高。
+When multiple different notes occur at the same time, this is called a chord. Chords can be created in BeepBox's pattern editor by adding notes above or below another note.	多个不同音高同时出现称为和弦。可在片段编辑区同一时间的上方或下方添加音符。
+This setting determines how chords are played. The standard option is "simultaneous" which starts playing all of the pitches in a chord at the same instant. The "strum" option is similar, but plays the notes starting at slightly different times. The "arpeggio" option is used in "chiptune" style music and plays a single tone that rapidly alternates between all of the pitches in the chord.	“同时发声”让所有和弦音一起起音；“扫弦”使起音略微错开；“琶音”以单一声音快速轮流演奏和弦音，常见于芯片音乐。
+Some BeepBox instruments have an option called "custom interval" which uses the chord notes to control the interval between the waves of a single tone. This can create strange sound effects when combined with FM modulators.	某些乐器的“自定义音程”用和弦音控制同一个音色内各波形的音程。与 FM 调制结合可制作特别的音效。
+This setting causes the frequency of a note to wobble slightly. Singers and violinists often use vibrato.	让音符频率轻微摆动，类似歌手或小提琴手使用的颤音。
+FM Synthesis is a mysterious but powerful technique for crafting sounds, popularized by Yamaha keyboards and the Sega Genesis/Mega Drive. It may seem confusing, but try playing around with the options until you get a feel for it, or check out some of the preset examples!	FM 调频合成是一种强大的音色设计技术，曾广泛用于 Yamaha 键盘和 Sega 游戏机。可先试听预设，再尝试不同组合。
+This FM synthesizer uses up to four waves, numbered 1, 2, 3, and 4. Each wave may have its own frequency and volume.	这个 FM 合成器最多使用 4 个波形（编号 1–4），各自具有频率与音量。
+There are two kinds of waves: "carrier" waves play a tone out loud, but "modulator" waves distort other waves instead. Wave 1 is always a carrier and plays a tone, but other waves may distort it. The "Algorithm" setting determines which waves are modulators, and which other waves those modulators distort. For example, "1←2" means that wave 2 modulates wave 1, and wave 1 plays out loud.	载波直接发声，调制波则改变其他波形。波形 1 始终是载波；算法决定调制关系。例如“1←2”表示波形 2 调制波形 1，由波形 1 发声。
+Modulators distort in one direction (like 1←2), but you can also use the feedback setting to make any wave distort in the opposite direction (1→2), or even itself (1⟲).	通常调制沿一个方向进行（如 1←2）；反馈可以反向调制（1→2），也能让波形调制自身（1⟲）。
+This setting controls the amount of feedback distortion based on the feedback type setting.	根据所选反馈类型，控制反馈失真的强度。
+This setting controls the frequency of an individual FM wave, relative to the fundamental frequency of the note. The multiplier 1× is the same as the fundamental frequency, whereas 2x would be an octave (12 semitones) above it. The frequencies with a "~" are slightly detuned and shift in and out of phase over time compared to the other frequencies.	控制单个 FM 波形相对于音符基频的频率。1× 等于基频，2× 高一个八度（12 个半音）。“~”表示轻微失谐，相位会随时间变化。
+Try different combinations of a "carrier" wave and a "modulator" wave with different frequencies to get a feel for how they sound together.	尝试不同载波与调制波频率组合，听听它们如何共同改变音色。
+This setting controls the volume of "carrier" waves, or the amount of distortion that "modulator" waves apply to other waves.	对载波，此参数控制音量；对调制波，则控制它对其他波形的调制强度。
+This setting allows you to draw your own noise spectrum! This is good for making drum sounds.	可自行绘制噪声频谱，适合制作鼓声。
+If you only use certain frequencies and a soft fade in/out, it's also possible to make howling wind sounds or even musical wind instruments.	仅使用部分频率并配合柔和淡入/淡出，也可制作风声或管乐般的声音。
+The left side of the spectrum editor controls the noise energy at lower frequencies, and the right side controls higher frequencies.	左侧控制低频噪声能量，右侧控制高频噪声能量。
+This setting allows you to design your own sound wave! Most musical waves are actually a combination of sine waves at certain frequencies, and this lets you control the volume of each sine wave individually.	自行设计波形：大多数乐音是多个特定频率正弦波的组合，这里可分别控制它们的音量。
+The left side of the harmonics editor controls the sine wave volumes at lower frequencies, and the right side controls higher frequencies.	左侧控制低频正弦波音量，右侧控制高频正弦波音量。
+BeepBox has many different kinds of special effects you can add to instruments. You can turn on multiple effects at once, and they can be configured individually. Try them all out!	可同时启用多个乐器效果，并分别调整参数。点击效果菜单试试不同组合。
+This drumset comes with a low-pass filter, and this setting can dynamically change the low-pass filter frequency over time. Each row in the pattern editor can have a different envelope shape.	鼓组内置低通滤波，此设置让截止频率随时间变化。片段编辑区每一行可使用不同包络。
+This setting allows you to draw your own noise spectrum! This is good for making drumsets. Each row in the pattern editor gets its own spectrum.	自行绘制鼓组噪声频谱。片段编辑区每一行都有独立频谱。
+The chorus effect combines multiple copies of the instrument's sound and adds a bit of vibrato to simulate an ensemble of instruments or voices. Drag the slider to control how much chorus is added.	合唱效果叠加多份声音并加入轻微颤音，模拟乐器或人声合奏。拖动滑块调整强度。
+The echo effect repeats the instrument's sound after a delay. Each echo is a little bit quieter than the last, and this setting controls how much quieter.	回声会延迟重复乐器声音，每次比上一次更轻。此参数控制衰减程度。
+The echo effect repeats the instrument's sound after a delay, and this setting controls how long the delay is.	回声会延迟重复乐器声音，此参数控制两次声音之间的时间。
+This setting makes instruments play higher or lower pitches than the ones displayed in the pattern editor. Be careful that you don't confuse yourself!	使乐器实际演奏音高高于或低于编辑区显示的音高，使用时请留意这种差别。
+You can combine this with envelopes to bend pitch over time, or play multiple simultaneous instruments with different pitch shifts for interesting layered sounds.	配合包络可制作弯音，或让多个乐器采用不同移调值同时发声，形成分层音色。
+The intervals created by this setting are in "just intonation" which means they stay in phase with the original pitch instead of shifting in and out of phase over time. If you want the shifting, add the detune effect!	此设置使用纯律音程，与原音保持稳定相位关系。若想要随时间变化的拍频，可再加微调效果。
+This setting slightly adjusts the frequency of notes played by the instrument. You can use a little bit to add a pleasing shifting sound similar to the "unison" feature when combined with other instruments. If you use too much, then the instrument may sound unpleasantly out-of-tune.	轻微调整乐器频率，与其他乐器叠加可产生类似齐奏的流动感。过多微调会明显失谐。
+This is the famous electric guitar effect! However, there are some things to be aware of.	经典电吉他失真效果，使用时建议留意以下几点。
+First, most chords don't sound right when combined with heavy distortion. The only chords commonly used with distorted electric guitars are "power chords" which consist of a root note, a "fifth" note above that, and/or any octaves of those two notes.	强失真不适合所有和弦。常用的强力和弦主要由根音、上方五度音及它们的八度组成。
+Second, the distortion sound depends a lot on filtering. In particular, I recommend enabling the note filter effect, and adding both high-pass and low-pass points to the note filter. (Note filters are applied first, then distortion which transforms the sound based on that filtering, then the EQ filter is applied last.)	滤波会显著影响失真。可启用音符滤波，添加高通与低通点。处理顺序是音符滤波 → 失真 → 均衡滤波。
+Finally, I recommend adjusting the fade-out setting to allow the end of each note to overlap a little bit with the beginning of the next, but not too much!	适度延长淡出，让前一音末尾与后一音略有重叠，但不要过多。
+This effect makes stuff sounds harsher, artificial, and "low quality", which is great if that's what you're going for!	减少量化精度，让声音更粗糙、更人工化，适合有意营造低保真效果。
+The bitcrusher effect comes with an additional frequency quantization effect! This is a fun one to play with, especially when combined with the note filter effect.	除位深量化外，还可降低频率采样精度。配合音符滤波能获得更多变化。
+Every other notch on this slider is aligned with the currently selected key of the song, and the in-between notches are aligned with the tritones of the key.	滑块每隔一格与歌曲当前调性对齐，中间各格对应三全音位置。
+Envelopes are a way to dynamically adjust various other settings over time, usually based on how long the note lasts. Press the + button to add an envelope, then use the menus below to select which setting to control and the curve of the envelope. Try different combinations to see how they sound!	包络让参数随音符时间动态变化。点击 + 添加包络，再选择控制目标与曲线，试听不同组合。
+Most envelope curves restart from the beginning every time a new note plays. The "note size" option is based on the note width as drawn in the pattern editor.	多数包络在每个音符起音时重新开始。“音符力度”则使用编辑区绘制的音符宽度。
+Envelope curves move in the range from 0 to 1 (or vice versa), where 0 means as quiet as possible and 1 is the same as the corresponding position selected in the instrument settings above. If multiple envelopes are targetting the same setting, they are multiplied before applying to the setting.	包络数值在 0 与 1 之间变化。0 表示尽可能弱，1 对应上方参数设定值。多个包络控制同一参数时，会先相乘再应用。
+Note Recording Setup	音符录制设置
+BeepBox can record notes as you perform them. You can start recording by pressing Ctrl+Space (or Ctrl+P).	可在演奏时录制音符。按 Ctrl+空格（或 Ctrl+P）开始录制。
+Add ● record button next to ▶ play button:	在播放按钮旁显示 ● 录制按钮：
+Snap recorded notes to the song's rhythm:	将录制音符对齐到歌曲节奏：
+Ignore notes not in the song's scale:	忽略音阶外的音符：
+While recording, you can perform notes on your keyboard!	录制时可用电脑键盘演奏音符！
+Keyboard layout:	键盘布局：
+selected song scale	使用当前歌曲音阶
+piano starting at C :)	钢琴布局，以 C 开始（大调）
+piano starting at A :(	钢琴布局，以 A 开始（小调）
+piano transposing C :) to song key	钢琴布局，将 C 大调移至歌曲调性
+piano transposing A :( to song key	钢琴布局，将 A 小调移至歌曲调性
+When not recording, you can use the computer keyboard either for shortcuts (like C and V for copy and paste) or for performing notes, depending on this mode:	未录制时，电脑键盘可用于快捷操作（如 C/V 复制粘贴）或演奏音符，取决于以下模式：
+simple shortcuts, use caps lock to play notes	直接使用快捷键，开启 Caps Lock 后演奏
+simple notes, press control for shortcuts	直接演奏，按住 Ctrl 使用快捷键
+Performing music takes practice! Try slowing the tempo and using this metronome to help you keep a rhythm.	演奏需要练习。可放慢速度，并使用节拍器保持节奏。
+Hear metronome while recording:	录制时播放节拍器：
+Count-in 1 bar of metronome before recording:	录制前预备一小节节拍：
+If you have a	如果使用
+compatible browser	兼容浏览器
+on a device connected to a MIDI keyboard, enable this option to use it to perform notes in BeepBox! (Or you could buy	且设备连接了 MIDI 键盘，可启用此项演奏音符。（也可使用第三方付费软件
+or	或
+to hum notes into a microphone while wearing headphones!)	，戴上耳机后将哼唱转为 MIDI；本软件不内置这些工具。）
+Enable MIDI performance:	启用 MIDI 键盘演奏：
+The range of pitches available to play via your computer keyboard is affected by the octave scrollbar of the currently selected channel.	电脑键盘可演奏的音域，取决于当前音轨的八度滚动条位置。
+Recorded notes often overlap such that one note ends after the next note already started. In BeepBox, these notes get split into multiple notes which may sound different when re-played than they did when you were recording. To fix the sound, you can either manually clean up the notes in the pattern editor, or you could try enabling the "transition type" effect on the instrument and setting it to "continue".	录制音符可能重叠，BeepBox 会把它们拆成多个音符，回放可能与演奏时不同。可在片段编辑区手动整理，或启用“衔接方式”效果并设为“连续”。
+Play (Space)	播放（空格）
+Pause (Space)	暂停（空格）
+Stop Recording (Space)	停止录制（空格）
+Record (Ctrl+Space)	录制音符（Ctrl+空格）
+Master Volume	总音量
+Frequency	频率
+Filter Envelope	滤波包络
+Feedback Amplitude	反馈幅度
+Zoom In	放大
+Zoom Out	缩小
+Copy to clipboard:	复制到剪贴板：
+Copy this:	复制以下内容：
+Synthesizing...	正在合成音频…
+Compressing...	正在压缩…
+Sorry, BeepBox requires a JavaScript-enabled browser.	BeepBox 需要启用 JavaScript 才能运行。
+Previous Bar (left bracket)	上一小节（[）
+Next Bar (right bracket)	下一小节（]）
+main volume	总音量
+Copy URL	复制链接
+Fullscreen	全屏
+loop	循环
+volume	音量
+zoom	缩放

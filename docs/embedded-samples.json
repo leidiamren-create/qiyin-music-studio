@@ -1,0 +1,77 @@
+{
+  "note": "Hashes of embedded adapted PCM, not original MP3 download hashes. Attribution in licenses/instrument-samples-CREDITS.txt.",
+  "samples": [
+    {
+      "instrument": "piano",
+      "midi": 57,
+      "sampleRate": 22050,
+      "pcm16Bytes": 352800,
+      "frames": 176400,
+      "seconds": 8,
+      "sha256": "56bd656b2599ac835e6d55bfe0b7014f3040b90d5de934debc319115167ba6f4"
+    },
+    {
+      "instrument": "piano",
+      "midi": 69,
+      "sampleRate": 22050,
+      "pcm16Bytes": 292608,
+      "frames": 146304,
+      "seconds": 6.635102040816326,
+      "sha256": "bae2761d810dee06382f3738c0fe66035f8c474ea3fb989061a03df04210a398"
+    },
+    {
+      "instrument": "guitar",
+      "midi": 48,
+      "sampleRate": 22050,
+      "pcm16Bytes": 352800,
+      "frames": 176400,
+      "seconds": 8,
+      "sha256": "8b78cf8f6f551c5ced962b49a433d1da0d4c6c955a55f9b61f00b0789dee6916"
+    },
+    {
+      "instrument": "guitar",
+      "midi": 60,
+      "sampleRate": 22050,
+      "pcm16Bytes": 154368,
+      "frames": 77184,
+      "seconds": 3.500408163265306,
+      "sha256": "6e50d88eef65c6e38db13aa5596c68dfa479b0e94c9f11ff0fedee7048127219"
+    },
+    {
+      "instrument": "flute",
+      "midi": 60,
+      "sampleRate": 22050,
+      "pcm16Bytes": 351360,
+      "frames": 175680,
+      "seconds": 7.96734693877551,
+      "sha256": "9ff07cf7024e3a6c421f8f2d04ec6a8a1abcfe6b6965c6772d5c9c3a8897e301"
+    },
+    {
+      "instrument": "flute",
+      "midi": 72,
+      "sampleRate": 22050,
+      "pcm16Bytes": 337536,
+      "frames": 168768,
+      "seconds": 7.6538775510204085,
+      "sha256": "3d1a37a61481ed3f44b165c60af62be5bf895afd52aff6acad12517dfda5aeba"
+    },
+    {
+      "instrument": "strings",
+      "midi": 57,
+      "sampleRate": 22050,
+      "pcm16Bytes": 352800,
+      "frames": 176400,
+      "seconds": 8,
+      "sha256": "9f7f7d5f288461afe28351b3a5c87db30c74b6d6b146b223eec2c59e95c7a21f"
+    },
+    {
+      "instrument": "strings",
+      "midi": 69,
+      "sampleRate": 22050,
+      "pcm16Bytes": 352800,
+      "frames": 176400,
+      "seconds": 8,
+      "sha256": "0a15267565596440afc811924cc632d37ff000c45452ec35cdb1bf6e84743a2e"
+    }
+  ]
+}

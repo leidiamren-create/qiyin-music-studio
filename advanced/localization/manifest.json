@@ -1,0 +1,7 @@
+{
+  "upstream": "BeepBox",
+  "version": "4.2.2",
+  "native_core_sha256": "1d94cb5891a23a5af20469a4eddfc11286aba35c3136e454cb5c8e2064900873",
+  "upstream_offline_sha256": "9441eeac11ab2c071aca896dd8ba07d3ae5b215a8ef31ada9519f612cabf6930",
+  "notes": "Native core is the already bundled offline-safe variant; localization applies only after the native editor is constructed."
+}

@@ -1,0 +1,2 @@
+# Spleeter's GCS adapter is unused for local files; v0.31 is last Windows wheel.
+tensorflow-io-gcs-filesystem==0.31.0

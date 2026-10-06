@@ -1,0 +1,18 @@
+<div id="text-content">
+<section><h1>BeepBox 离线作曲</h1><p id="introduction">BeepBox 用于创作、试听和分享器乐音乐。本版本可离线使用。</p>
+<p>歌曲数据保存在浏览器地址的 # 后，编辑时会自动更新。请使用“保存高级工程 JSON”或“文件 → 导出歌曲”定期备份；复制歌曲链接时，接收者也需要能打开对应编辑器。</p>
+<p>BeepBox 是免费使用的个人项目。原作者：<a href="https://www.johnnesky.com" target="_blank" rel="noopener">John Nesky</a>（<a href="https://twitter.com/shaktool" target="_blank" rel="noopener">@shaktool</a>）。</p></section>
+<div class="column-container"><main class="instructions-column"><section><h2>操作说明</h2>
+<p>点击上方灰色音高行可添加或移除音符，并即时试听。音符保存在片段里，每次编辑一个片段；底部数字格表示各小节所使用的片段编号。</p>
+<p id="bar-editing">点击数字格切换编辑位置；点击当前格的箭头切换片段。相同编号复用同一个片段，修改会同步影响引用它的小节。需要独立修改时，使用“编辑 → 独立复制复用片段”。</p>
+<p>多条音轨可同时播放，每条轨道有自己的片段。上方音轨用于旋律与和声，底部通常是鼓组。</p>
+<p>数字格下方的紫色区域控制循环播放范围。拖动整体可移动循环，拖动两端可调整循环长度。</p>
+<div id="keyboard-instructions"><p>点击编辑器后，可使用以下快捷键：</p><ul>
+<li>空格：播放或暂停；Shift + 空格：从鼠标位置播放</li><li>Z：撤销；Y 或 Shift + Z：重做</li><li>C / V：复制 / 粘贴选中片段</li><li>0–9：设置选中格的片段编号</li><li>方向键：移动选区；Ctrl + 方向键：重新排列音轨</li><li>[ / ]：播放指针后退 / 前进</li><li>F / H：跳至第一个 / 当前选中的片段</li><li>Shift + 拖动：选择片段的一部分（触摸屏可长按）</li><li>更多快捷键见“编辑”菜单。macOS 上部分 Ctrl 操作显示为 ⌘。</li></ul></div>
+<p>横向拖动音符可调整时值；在音符上方或下方添加同时起音的音符可组成和弦。</p>
+<p>进阶操作：从已有音符竖向拖动可弯音；从音符上方或下方竖向拖动可调整力度。拖动底部数字格可选择多个片段，复制粘贴整段音乐。</p>
+<p>右侧提供音阶、调性、节奏、乐器与效果参数。点击参数名称可查看中文说明。C、D、E 等标准音名、FM/PWM/MIDI 等通用缩写保持原样。</p>
+</section><section><h2>关于与授权</h2><p>原创歌曲归其作者所有，BeepBox 不主张作品所有权。John Nesky 和 BeepBox 不对使用者播放的受版权保护材料承担责任。</p>
+<p>歌曲数据不由 BeepBox 服务器接收、录制或分发；除非主动复制分享歌曲链接或文件，数据保留在本机。BeepBox 不收集、跟踪或分享用户数据。本离线包禁止网络资源请求；点击外部参考链接会离开本页。</p>
+<p>可查看官方<a href="https://github.com/johnnesky/beepbox/releases/" target="_blank" rel="noopener">版本说明</a>与<a href="https://github.com/johnnesky/beepbox" target="_blank" rel="noopener">源代码</a>。BeepBox 使用 MIT 许可证，原始版权及许可证保留于发行包。</p>
+<p>中文界面为七音本地适配。工程 JSON、歌曲链接编码、乐器标识与 MIDI 数据保持官方格式，以维持兼容性。</p></section></main></div></div>

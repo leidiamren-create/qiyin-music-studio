@@ -1,0 +1,95 @@
+七音音乐工作室 1.4.0-public.1 — THIRD-PARTY NOTICES
+
+Scope
+This public source/browser distribution contains the components listed under
+“Included”. Original application code has no newly granted general open-source
+license; see LICENSE.txt. Third-party rights and obligations remain unchanged.
+No optional native recognition runtime/model bundle is included.
+
+INCLUDED
+
+1. jsfxr and RIFFWAVE.js
+Upstream: https://github.com/chr15m/jsfxr
+jsfxr: Unlicense; licenses/jsfxr-UNLICENSE.txt and licenses/jsfxr-CREDITS.txt.
+RIFFWAVE.js (Pedro Ladaria): public domain; original notice in vendor/riffwave.js.
+Bundled locally as vendor/jsfxr.js and vendor/riffwave.js.
+
+2. Eight adapted tonejs-instruments samples
+Upstream: https://github.com/nbrosowsky/tonejs-instruments
+License: CC BY 3.0 Unported, https://creativecommons.org/licenses/by/3.0/
+Credit: Nathaniel Brosowsky and contributors; VSCO 2 Community Edition
+contributors Sam Gossner, Simon Dalzell, Elan Hickler / Soundemote;
+University of Iowa Electronic Music Studios, as detailed in
+licenses/instrument-samples-CREDITS.txt and retained upstream records.
+Piano A3/A4, guitar-acoustic C3/C4, flute C4/C5 and violin A3/A4 are embedded
+as mono PCM16 22050 Hz with bounded duration, gain and final fade in samples.js.
+Playback may transpose and apply sustain loops. This is a small sample set,
+not a full orchestral library. Retain the credits and CC BY legal text.
+The original source-download manifest was not present in this source snapshot.
+Included PCM hashes/lengths are in docs/embedded-samples.json; these do not
+establish independently reverified original MP3 hashes.
+
+3. BeepBox 4.2.2
+Author: John Nesky and contributing authors.
+MIT license: licenses/BeepBox-MIT.txt and retained upstream HTML notices.
+Source: https://github.com/johnnesky/beepbox/tree/v4.2.2
+Editor source URL: https://www.beepbox.co/beepbox_offline.html
+Player source URL: https://www.beepbox.co/player/
+Integrated in advanced/index.html and advanced/player/index.html.
+The retained localization/manifest.json pins the originally recorded upstream
+HTML hash and integrated core hash. The original download file is not bundled.
+Integration adaptations include local links, import guards, offline resource
+policy, removal of CDN MP3 encoding / online short links / web-font loading,
+and a Chinese display adapter. Upstream internal song fields remain unchanged.
+The public-preparation change removes an unapproved generic MIT declaration
+from our own display-adapter comment; it does not change BeepBox's MIT license.
+No official endorsement or lossless conversion to numbered notation is claimed.
+
+4. PDF.js 6.3.289 and included auxiliary resources
+Upstream: https://github.com/mozilla/pdf.js
+Distribution: https://www.npmjs.com/package/pdfjs-dist/v/6.3.289
+PDF.js: Apache-2.0, vendor/pdfjs/LICENSE.
+CMaps: Adobe BSD-style terms, vendor/pdfjs/cmaps/LICENSE.
+Foxit standard fonts: PDFium BSD-style terms,
+vendor/pdfjs/standard_fonts/LICENSE_FOXIT.
+OpenJPEG: BSD-2-Clause; qcms: MIT; JBIG2: Apache-2.0;
+retained license texts are in vendor/pdfjs/wasm/.
+The unused quickjs-eval.js and quickjs-eval.wasm assets are excluded from this
+public package. PDF JavaScript is not executed by the application. No PDF.js
+core code was changed during public packaging.
+Standard-font distribution details: docs/PUBLIC-PACKAGING.md.
+
+OPTIONAL / NOT BUNDLED
+
+The repository retains original integration code, dependency pins and selected
+license texts for the optional components below. Their presence is not proof
+that their binaries or models are distributed in this public package.
+
+Spleeter 2.4.2: Deezer SA, MIT. https://github.com/deezer/spleeter
+Basic Pitch 0.4.0: Spotify AB and contributors, Apache-2.0.
+https://github.com/spotify/basic-pitch/tree/v0.4.0
+ONNX Runtime: MIT; license and privacy documentation retained under
+local_service/licenses/. Other Python dependencies retain their own terms.
+uv bootstrap: MIT OR Apache-2.0, licenses/uv-MIT.txt and uv-Apache-2.0.txt.
+https://github.com/astral-sh/uv
+Audiveris: separate application, AGPL-3.0-or-later.
+https://github.com/Audiveris/audiveris
+No Audiveris binary, Java runtime, OCR trained data, FFmpeg executable, Python
+runtime, TensorFlow wheel, recognition model or VC++ installer is included.
+A prior full-offline personal update is not offered as a public download here;
+its redistribution conditions cannot be inferred from this source listing.
+
+WINDOWS BASE PACKAGE ONLY
+
+A separately packaged Windows base ZIP adds the unmodified Electron runtime
+(from the recorded Electron 44.5.1 Windows x64 distribution) with the executable
+renamed to 七音音乐工作室.exe. Keep the outer LICENSE, LICENSES.chromium.html,
+and Electron官方SHA256.txt with it. They cover Electron / Chromium and their
+bundled components, not the whole application. Upstream source/release:
+https://github.com/electron/electron/releases/tag/v44.5.1
+https://github.com/electron/electron/tree/v44.5.1
+Electron binary files do not belong in this source repository.
+
+Music rights
+Software/model licenses do not grant rights to any input recording/composition.
+Obtain the relevant permissions before adapting or publishing music.

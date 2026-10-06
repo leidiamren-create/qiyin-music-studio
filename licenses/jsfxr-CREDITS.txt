@@ -1,0 +1,6 @@
+jsfxr sound-effect engine
+Source: https://github.com/chr15m/jsfxr
+License: Unlicense (see jsfxr-UNLICENSE.txt).
+Authors: original sfxr by Dr. Petter; HTML5 port by Eric Fredricksen; maintenance by Chris McCormick.
+RIFFWAVE.js by Pedro Ladaria, public domain (notice retained in source).
+Bundled vendor/jsfxr.js concatenates upstream riffwave.js and sfxr.js, downloaded 2026-10-05. vendor/riffwave.js is additionally present for upstream CommonJS compatibility. No upstream engine code changed.

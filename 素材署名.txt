@@ -1,0 +1,16 @@
+使用七音的真实采样音色制作并发布音频时，可在作品说明或游戏素材署名中附上：
+
+Instrument samples: Nathaniel Brosowsky / tonejs-instruments contributors,
+with original recordings from VSCO 2 Community Edition (Sam Gossner,
+Simon Dalzell; sample cutting by Elan Hickler / Soundemote) and
+University of Iowa Electronic Music Studios.
+Source: https://github.com/nbrosowsky/tonejs-instruments
+License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+https://creativecommons.org/licenses/by/3.0/
+Adapted for Numbered Music Studio: converted to mono 22,050 Hz PCM16,
+trimmed to at most 8 seconds, level-adjusted and faded; transposed during playback.
+Playback skips leading codec padding and crossfades sustain loops for held flute/violin notes.
+
+钢琴、长笛、小提琴原始采样来自 VSCO 2 CE；木吉他来自 Iowa。
+完整采样来源与许可证见 licenses 文件夹和 docs/embedded-samples.json（已嵌入 PCM 摘要；不含原始下载清单）。
+此署名针对真实采样音色，不针对纯合成乐器、独立程序音效或MIDI中的音符数据。

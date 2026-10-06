@@ -1,0 +1,13 @@
+七音音乐工作室原创部分：许可证待权利人确定
+
+本次公开发布不为原创应用代码新增 MIT、Apache 或其他通用开源授权。
+公开仓库可见和可下载，不应被理解为自动取得修改、再分发、再许可或商业使用许可；
+有关授权请联系仓库维护者。后续确定的许可证应由权利人明确发布。
+
+第三方代码、字体、解码器和录音采样不受上述说明替代，仍适用各自现有许可。
+请阅读 THIRD_PARTY_NOTICES.txt、licenses/ 和 vendor/pdfjs/ 中的原始许可。
+该说明不撤销、不缩减第三方已经授予的权利，也不对既有有效授权作追溯变更。
+
+Original application components: license pending the rightsholder's decision.
+This publication does not add a general MIT or other open-source license grant.
+Third-party materials retain their original licenses and notices.

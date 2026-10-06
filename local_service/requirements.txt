@@ -1,0 +1,12 @@
+# Tested Python 3.11; Python 3.12 is NOT supported by this model stack.
+spleeter==2.4.2
+basic-pitch[onnx]==0.4.0
+tensorflow==2.12.1
+numpy==1.24.3
+librosa==0.10.2.post1
+numba==0.61.2
+soundfile==0.13.1
+psutil==7.0.0
+onnxruntime==1.30.0
+imageio-ffmpeg==0.6.0
+setuptools==80.9.0

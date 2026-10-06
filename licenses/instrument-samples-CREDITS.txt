@@ -1,0 +1,24 @@
+REAL INSTRUMENT SAMPLE CREDITS
+
+This application bundles eight adapted samples from Nathaniel Brosowsky's tonejs-instruments collection, licensed Creative Commons Attribution 3.0 Unported (CC BY 3.0).
+Collection: https://github.com/nbrosowsky/tonejs-instruments
+License: https://creativecommons.org/licenses/by/3.0/
+Legal terms: https://creativecommons.org/licenses/by/3.0/legalcode
+
+Files / original source as catalogued by upstream:
+- piano/A3.mp3, piano/A4.mp3: VSCO 2 Community Edition (VSO2 in upstream source notes), Versilian Studios. Original library recordings by Sam Gossner and Simon Dalzell; sample cutting by Elan Hickler / Soundemote.
+- flute/C4.mp3, flute/C5.mp3: same VSCO 2 Community Edition source.
+- violin/A3.mp3, violin/A4.mp3: same VSCO 2 Community Edition source. Used for the app's solo-violin / strings option, not a full recorded string ensemble.
+- guitar-acoustic/C3.mp3, guitar-acoustic/C4.mp3: University of Iowa Electronic Music Studios musical instrument samples (Iowa in upstream source notes).
+
+Upstream sample processing and compilation: Nathaniel Brosowsky / tonejs-instruments contributors. Upstream documents trimming, ramps, volume matching, normalization, noise removal, and occasional pitch correction.
+Upstream source record is retained as instrument-samples-upstream-sources.txt.
+Original sources:
+https://github.com/sgossner/VSCO-2-CE
+https://theremin.music.uiowa.edu/
+
+Changes for this app: MP3 decoded into mono PCM16 at 22,050 Hz, capped at eight seconds per anchor, peak gain adjusted by at most 2x toward 26000/32768, final 100 ms faded out, embedded as base64 in samples.js. No loops were baked into the embedded PCM. During playback the renderer skips leading codec padding and creates phase-aligned, 65 ms crossfaded sustain loops for long flute and violin notes. Other notes are pitch-shifted from the nearest recorded anchor, which changes timbre/duration; this is a compact starter instrument set rather than a full professional sound library.
+
+The original download manifest is not present in this source snapshot. Included PCM hashes, lengths and note mappings are recorded in docs/embedded-samples.json. Source identities above are inherited from the retained upstream attribution records; no new verification of original MP3 bytes is claimed.
+
+The original/adapted sample assets remain under CC BY 3.0. Retain these credits and license information when redistributing the sample assets. This file does not change the licenses of unrelated application code.

@@ -1,0 +1,4 @@
+CC-BY-3.0-legalcode.txt is the Creative Commons Attribution 3.0 Unported legal code as distributed by the SPDX license-list-data project:
+https://github.com/spdx/license-list-data/blob/main/text/CC-BY-3.0.txt
+Canonical legal code: https://creativecommons.org/licenses/by/3.0/legalcode
+Retrieved 2026-10-05. The canonical .txt download returned HTTP 403; the SPDX standardized text copy is bundled for offline reference.

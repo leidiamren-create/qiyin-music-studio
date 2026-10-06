@@ -1,0 +1,15 @@
+{
+  "name": "qiyin-music-studio",
+  "version": "1.4.0-public.1",
+  "private": true,
+  "description": "七音音乐工作室公开基础版：离线作曲与可选本机识别",
+  "main": "desktop/main.cjs",
+  "license": "UNLICENSED",
+  "scripts": {
+    "serve": "node tools/serve.cjs",
+    "test": "node --test tests/*.test.cjs desktop/offline-omr-tests.cjs",
+    "test:localization": "node advanced/localization/tests.cjs && node advanced/localization/player-tests.cjs",
+    "build:localization": "python advanced/localization/build.py",
+    "check": "node tools/check.cjs"
+  }
+}
