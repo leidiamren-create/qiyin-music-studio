@@ -12,7 +12,8 @@
 
 - **源码 / 浏览器包**：完整解压后，用桌面 Edge / Chrome 打开 `index.html`，可使用数字作曲、音效与高级作曲。无需安装依赖或构建。浏览器本地文件策略可能限制 PDF 模块；需要 PDF 预览时可用下述本机服务。
 - **Windows x64 公开基础版 ZIP**：全部解压，双击 `七音音乐工作室.exe`。必须保留整个文件夹；该包包含 Electron 外壳，用户无需另装 Node.js。未进行 Windows 真机验收，未购买代码签名证书。不要绕过系统安全警告。
-- **增量更新包不是完整客户端**：历史 v1.4 完整离线组件更新以已安装的 v1.3 Windows 基础客户端为前提，不能单独运行。它不是本次公开基础包，当前不在公开仓库提供；不能用源码 ZIP 代替它。
+- **已有 v1.3 Windows x64 客户端：应用资源更新包**：从[同一发布页](https://github.com/leidiamren-create/qiyin-music-studio/releases/tag/v1.4.0-public.1)查找名称包含 `update-from-v1.3` 的 ZIP。它只提供完整的 `resources/app`，不重下 Electron，也不附带模型或可选运行库；不能单独启动。先读[升级、备份与回滚说明](docs/UPGRADE_FROM_V1_3.txt)，导出各工作区、将旧 app 改名留作备份，再复制新 app。保留原 `.runtime`，兼容性仍需实机检查。
+- **历史完整离线组件更新**：此前 v1.4 的大型离线组件增量包也以指定旧客户端为前提，但不属于本次公开下载，当前不在公开仓库提供。它与这里的小型应用资源更新包是不同的包。
 
 本机浏览器服务（仅需已安装的 Node.js；不需要 npm install）：
 
@@ -34,7 +35,9 @@ npm run serve
 
 ## 可选识别组件
 
-音频识别：Windows 客户端的“准备音频识别”可按用户确认下载官方 Python / PyPI 依赖与模型。首次需要网络，可能约 1–2 GB 下载，建议 8 GB 内存和 6 GB 可用磁盘；实际量以依赖和缓存为准。网络或平台依赖可能失败，此路径未在真实 Windows 上验证。组件默认放在客户端旁 `.runtime/`。
+官方组件的具体下载地址、固定版本、Audiveris 带控制台安装包、配置步骤和故障排查见 [第三方组件下载与配置指南](docs/COMPONENT_SETUP.md)。基础作曲无需另装这些组件。
+
+音频识别：Windows 客户端的“准备音频识别”可按用户确认下载 Astral 分发的 Python / 官方 PyPI 依赖与模型。首次需要网络，可能约 1–2 GB 下载，建议 8 GB 内存和 6 GB 可用磁盘；实际量以依赖和缓存为准。网络或平台依赖可能失败，此路径未在真实 Windows 上验证。组件默认放在客户端旁 `.runtime/`。
 
 图片 / 印刷五线谱识别：需自行安装可信的官方 [Audiveris](https://github.com/Audiveris/audiveris/releases)，并在桌面客户端配置其 `Audiveris.exe`。相关许可、Java 和语言数据由该独立软件决定。没有附带 Audiveris、Java、OCR 数据或微软 Visual C++ 安装器。手写谱、数字简谱图片和复杂拍照条件不保证支持。
 

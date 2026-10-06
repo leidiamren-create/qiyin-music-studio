@@ -1,6 +1,6 @@
 {
   "version": "1.4.0-public.1",
-  "note": "Public source snapshot; this manifest excludes itself. Binary font corresponding source is included.",
+  "note": "Public source snapshot with component and v1.3 app-update guides; this manifest excludes itself. Binary font corresponding source is included.",
   "files": [
     {
       "path": ".gitignore",
@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4979,
-      "sha256": "048c0e68ca552242c28f9545ce2203cae069f10425a746ae127c8412bdd7d5a0"
+      "bytes": 6290,
+      "sha256": "d4280ae356998edc3d7897b0c070fcce060816aeba64884f46691509d3721a59"
     },
     {
       "path": "THIRD_PARTY_NOTICES.txt",
@@ -153,9 +153,19 @@
       "sha256": "1fb2e278224602a442cfe5ad5b0eeacbd2dac8d74eb6c5844cb746f202585ff9"
     },
     {
+      "path": "docs/COMPONENT_SETUP.md",
+      "bytes": 20265,
+      "sha256": "c50c879fe7efdad76df00e89fd3e322e15a0a56a735fc643ba2b56e40898ba1c"
+    },
+    {
       "path": "docs/PUBLIC-PACKAGING.md",
       "bytes": 2091,
       "sha256": "8d83b4830a997622be18ed6bd94706d415e6ca7f59632fc546a4fe647ae954c6"
+    },
+    {
+      "path": "docs/UPGRADE_FROM_V1_3.txt",
+      "bytes": 9625,
+      "sha256": "22b5cb303d23813066f7d2a0f5f1b8df3b0781721822a0e62287508ef257ef86"
     },
     {
       "path": "docs/VALIDATION.md",
